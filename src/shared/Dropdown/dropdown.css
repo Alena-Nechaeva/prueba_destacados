@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  flex: 1 1 0%;
+}
+
+.list {
+  z-index: 10;
+  background-color: var(--white);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+@media all and (min-width: 1024px) {
+  .listContainer {
+    position: relative;
+  }
+}
+
+

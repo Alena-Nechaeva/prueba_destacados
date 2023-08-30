@@ -1,0 +1,49 @@
+.sortBlock {
+  background-color: var(--white);
+  padding: 11px 20px;
+  border-radius: 7px;
+  margin: 0 0 20px;
+}
+
+.sortList {
+  padding: 0 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.dropdownElem {
+  position: relative;
+  padding: 6px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdownElem:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--greyEC);
+}
+
+.dropdownElem:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.selectBtn {
+  color: var(--orange);
+}
+
+@media all and (min-width: 1024px) {
+  .sortBlock {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,42 @@
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: transparent;
+}
+
+.content {
+  position: relative;
+  min-width: 200px;
+  border-radius: 7px;
+  min-height: 160px;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  max-width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 30px auto;
+  margin-top: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 20px;
+}
+
+.postImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.postImage img {
+  max-width: 80%;
+}
